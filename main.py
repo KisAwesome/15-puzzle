@@ -18,13 +18,6 @@ def randomize_board(original_board):
     for i in original_board:
         random.shuffle(i)
     return original_board
-    # _board = []
-    # for i in original_board:
-    #     for j in i:
-    #         _board.append(j)
-
-    # random.shuffle(_board)
-    # return list(divide_chunks(_board, len(original_board[0])))
 
 
 def find_2d_list(el, lst):
